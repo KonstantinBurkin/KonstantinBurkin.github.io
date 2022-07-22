@@ -1,0 +1,241 @@
+<html>
+  <head>
+    <title>CBAI summer school</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+      @media screen and (min-width:1000px) {
+      body{
+            margin-left: 20vh; 
+            margin-right: 20vh;
+            font-size: 18px;
+            font-family: 'Nunito', sans-serif;
+                  }}
+      @media screen and (max-width:1000px) {
+        body{
+            margin-left: 2vh; 
+            margin-right: 2vh;
+            font-size: 30px;
+            font-family: 'Nunito', sans-serif;
+                  }
+              }
+      @media screen and (min-width:1800px) {
+        body{
+            margin-left: 30vh; 
+            margin-right: 30vh;
+            font-size: 18px;
+            font-family: 'Nunito', sans-serif;
+                  }
+              }
+    </style>
+  </head>
+  
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><br></p>
+<p><center><h1>Подбор узлов автоматизированного конвейера обработки данных массового параллельного секвенирования</h1></center>
+<br></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center><h3>Буркин К.М., Коперник А.А., Железняк Н.О., Шеломенцева Е.М.</h3></center>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center> <i>19 June 2022 </i> </center>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><br>
+<br><center><div> <img src="https://static.tildacdn.com/tild3930-3632-4264-a364-646261333733/summer_school_logo_b.png" alt="Drawing" style="width: 40vw;"/></div> </center></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><div align="justify"></p>
+<h3 id="Assignment">Введение:</h3>
+Развитие технологий высокопроизводительного секвенирования ДНК привело к появлению нового класса объемных геномных данных и алгоритмов их обработки и анализа. Конвейерные структуры (пайплайны) являются необходимым инструментом работы с генетическими данными. На сегодняшний день в литературе описан широкий спектр инструментов для реализации пайплайнов и повышения точности их работы, и актуальным является изучение влияния выбора программ для предобработки, маппинга и коллинга на результаты работы пайплайна. <br>
+
+
+<h3 id="Assignment">Цель:</h3>
+Создание пайплайна для обработки данных
+секвенирования Homo sapiens и анализ
+влияния инструментов предварительной
+обработки данных (trimmomatic, bqsr) и
+картирования (bwa-mem, minimap) на
+качество работы алгоритма.<br>
+
+
+<h3 id="Assignment">Материалы и методы:</h3>
+Получены fastaq-файлы с ридами из базы
+данных NCBI для фрагмента chr10 человека и
+протестированы на референсной геномной
+последовательности NA12878 консорциума
+«Genome in a bottle» с применением
+разработанного алгоритма.
+Создание и модификация алгоритма
+проводилась в среде conda с применением
+инструментов snakemake, samtools, gatk,
+bcftools.
+Визуальный контроль качества
+выравнивания проводился в Integrative
+Genomics Viewer (IGV). Анализ полученных
+vcf-файлов с вариантами проводился в
+программе hap.py.</div> <br>
+<h3 id="Assignment">Результаты:</h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><br>
+<br><center><div> <img src="https://raw.githubusercontent.com/KonstantinBurkin/KonstantinBurkin.github.io/735ec81455ceb07e0c621ccb8cbf56f56992f28a/images/cbai_scheme.svg" alt="Drawing" style="width: 40vw;"/></div> </center></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<center>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:ANunito, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Nunito, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-m3rw{background-color:#d5d5d5;border-color:#ffffff;color:#333333;font-family:Nunito, sans-serif !important;
+  font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-j331{background-color:#efefef;border-color:#ffffff;color:#333333;font-family:Nunito, sans-serif !important;
+  text-align:center;vertical-align:top}
+.tg .tg-sm06{background-color:#cbcefb;border-color:#ffffff;color:#333333;font-family:Nunito, sans-serif !important;
+  font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-igc0{background-color:#ffccc9;border-color:#ffffff;color:#333333;font-family:Nunito, sans-serif !important;
+  text-align:center;vertical-align:top}
+.tg .tg-2ace{background-color:#9aff99;border-color:#ffffff;color:#333333;font-family:Nunito, sans-serif !important;
+  text-align:center;vertical-align:top}
+.tg .tg-h6fa{background-color:#ffffff;border-color:#ffffff;color:#333333;font-family: !important;
+  text-align:center;vertical-align:top}
+.tg .tg-sh0j{background-color:#ffffc7;border-color:#ffffff;color:#333333;font-family:Nunito, sans-serif !important;
+  font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg" style="undefined;table-layout: fixed; width: 534px">
+<colgroup>
+<col style="width: 128px">
+<col style="width: 90px">
+<col style="width: 66px">
+<col style="width: 111px">
+<col style="width: 139px">
+</colgroup>
+<thead>
+  <tr>
+    <th class="tg-m3rw">minimap/bwa-mem</th>
+    <th class="tg-m3rw">trimmomatic</th>
+    <th class="tg-m3rw">bqsr</th>
+    <th class="tg-m3rw">F1-Score SNP</th>
+    <th class="tg-m3rw"><span style="font-style:normal">F1-Score Indel</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-sm06">minimap</td>
+    <td class="tg-igc0">-</td>
+    <td class="tg-igc0">-</td>
+    <td class="tg-j331">0.976</td>
+    <td class="tg-j331">0.821</td>
+  </tr>
+  <tr>
+    <td class="tg-sm06">minimap</td>
+    <td class="tg-2ace">+</td>
+    <td class="tg-igc0">-</td>
+    <td class="tg-h6fa">0.976</td>
+    <td class="tg-h6fa">0.810</td>
+  </tr>
+  <tr>
+    <td class="tg-sm06">minimap</td>
+    <td class="tg-igc0">-</td>
+    <td class="tg-2ace">+</td>
+    <td class="tg-j331">0.976</td>
+    <td class="tg-j331">0.833</td>
+  </tr>
+  <tr>
+    <td class="tg-sm06">minimap</td>
+    <td class="tg-2ace">+</td>
+    <td class="tg-2ace">+</td>
+    <td class="tg-h6fa">0.976</td>
+    <td class="tg-h6fa">0.810</td>
+  </tr>
+  <tr>
+    <td class="tg-sh0j">bwa-mem</td>
+    <td class="tg-igc0">-</td>
+    <td class="tg-igc0">-</td>
+    <td class="tg-j331">0.960</td>
+    <td class="tg-j331">0.810</td>
+  </tr>
+  <tr>
+    <td class="tg-sh0j">bwa-mem</td>
+    <td class="tg-2ace">+</td>
+    <td class="tg-igc0">-</td>
+    <td class="tg-h6fa">0.960</td>
+    <td class="tg-h6fa">0.821</td>
+  </tr>
+  <tr>
+    <td class="tg-sh0j">bwa-mem</td>
+    <td class="tg-igc0">-</td>
+    <td class="tg-2ace">+</td>
+    <td class="tg-j331">0.960</td>
+    <td class="tg-j331">0.821</td>
+  </tr>
+  <tr>
+    <td class="tg-sh0j">bwa-mem</td>
+    <td class="tg-2ace">+</td>
+    <td class="tg-2ace">+</td>
+    <td class="tg-h6fa">0.960</td>
+    <td class="tg-h6fa">0.800</td>
+  </tr>
+</tbody>
+</table></div></center>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><div align="justify"></p>
+<p><h3 id="Assignment">Выводы:</h3>
+Разработан пайплан для анализа данных секвенирования
+следующего поколения с применением актуальных
+инструментов повышения точности работы алгоритма.
+Проанализировано влияние инструментов trimmomatic,
+bqsr, bwa-mem и minimap на работу пайплайна при
+помощи сравнения получаемых vcf-файлов в программе
+hap.py.<br></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><br><br><br></p>
+<p><center><a href="https://konstantinburkin.github.io">Main page</a></center><br><br></p>
+
+</div>
+</div>
+</div>
+ 
+
