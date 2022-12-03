@@ -3,21 +3,53 @@
     <title>Konstantin Burkin</title>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;1,400&display=swap');
-      
+      .area_1{
+                        /* height: 98vh; */
+                        width: 100vw;
+                        /* background: #ffe8d6; */
+                        /* margin:10px; */
+                        /* text-align: center; */
+                        display:table-cell;
+                        vertical-align:middle;
+                    }
+              .area_2{
+                        /* height: 98vh; */
+                        width: 100vw;
+                        /* background: #ffe8d6; */
+                        /* margin:10px; */
+                        /* text-align: center; */
+                        display:table-cell;
+                        vertical-align:middle;
+                        /* margin-left: 2vh;  */
+                        
+                    }
       @media screen and (min-width:1000px) {
       body{
             margin-left: 20vh; 
             margin-right: 20vh;
             font-size: 18px;
             font-family: 'Nunito', sans-serif;
-            /* max-width: max-content; */
-                  }}
+                  }
+                  .area_1{
+                    height: 98vh;
+                  }
+                  .area_2{
+                    height: 95vh;                    
+                  }
+                }
       @media screen and (max-width:1000px) {
         body{
             margin-left: 2vh; 
             margin-right: 2vh;
             font-size: 22px;
             font-family: 'Nunito', sans-serif;
+                  }
+                  .area_1{
+                    height: 48vh;
+                  }
+                  .area_2{
+                    height: 48vh;   
+                    /* background: #ff9999;                    */
                   }
               }
       @media screen and (min-width:1800px) {
@@ -27,17 +59,27 @@
             font-size: 18px;
             font-family: 'Nunito', sans-serif;
                   }
-              }
+                  .area_1{
+                    height: 84vh;
+                  }
+                  .area_2{
+                    height: 84vh;    
+                    background: #ffe8d6;                
+                  }
+              }}
+
+
     </style>
   </head>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><br></p>
+
+<container >
+<div class="area_1">
+
+  <br>
 <p style="text-align:center;">
     <img src="images/my_photo-min.jpeg" alt="That's me" width=200vh height=200vh>
     <br></p>
-<center><h1>Konstantin Burkin</h1></center>
+<center><h1>Konstantin Burkin</h1></center><br><br>
 <h2>Bio</h2>
 <ul><li>Graduating student of top Russian University.</li>
     <li>Lead project developer for <i>"Personalized Medicine"</i> project at Higher School of Economics University.</li> 
@@ -45,46 +87,37 @@
     <li>5+ years of experience in biochemical research.</li>
     <li>Aiming for AI/ML Residency position.</li>
 </ul>
+
+</div>
+<HR>
+<br>
+<div  class="area_2">
 <h2>Portfolio</h2>
 <ul>
-<li>ML work experience</li>
+<li><h3>ML work experience</h3></li>
 <ul>
 <li><a href="https://konstantinburkin.github.io/experience.html">Personalized Medicine</a></li>
 </ul>
-<li>Pet projects</a></li>
+<li><h3>Pet projects</h3></li>
 <ul>
 <li><a href="https://konstantinburkin.github.io/sales_forecasting.html">Sales Forecating</a></li>
 <li><a href="https://konstantinburkin.github.io/Vaccination_rates.html">Vaccination rates</a></li>
 </ul>
-<li><a href="https://konstantinburkin.github.io/publications.html">Publications</a></li>
-<li>Education Certificates</li>
+<li><a href="https://konstantinburkin.github.io/publications.html"><h3>Publications</h3></a></li>
+<li><h3>Education Certificates</h3></li>
 <ul>
   <li><a href="education/Academic%20transcript.pdf">Lomonosov MSU Academic transcript</a></li>
   <li><a href="education/Confirmation%20of%20studying%20at%20Lomonosov%20MSU.pdf">Lomonosov MSU Reference</a></li>
   <li><a href="education/English%20-%20Toefl%20iBT%20certificate%20-%20101.pdf">TOEFL-iBT</a></li>
   </ul>
-<li><a href="https://konstantinburkin.github.io/awards.html">Awards</a></li>
+<li><a href="https://konstantinburkin.github.io/awards.html"><h3>Awards</h3></a></li>
 </ul>
+<br>
 <h2>Contacts</h2>
 <ul>
     <li>mail: <a href="mailto:konstantin.burkin@chemistry.msu.ru">konstantin.burkin@chemistry.msu.ru</a></li>
     <li>LinkedIn: <a href="https://www.linkedin.com/in/kburkin/">www.linkedin.com/in/kburkin</a></li>
 </ul>
 </div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
 
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-
-</div>
+</container>
