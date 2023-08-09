@@ -200,14 +200,14 @@
             margin: 0px;
             /* padding-top: 2px; */
             /* padding-bottom: 2px; */
-            padding-left: 2px;
-            padding-right: 2px;
+            padding-left: 4px;
+            padding-right: 4px;
             font-size: 40px;;
             /* background-color:  #313131; */
         }
     
         .Download_cv {
-            width: 350px;
+            width: 400px;
             /* background-color: #313131; */
         }
         .Contacts-container {
@@ -216,8 +216,8 @@
         }
         
         .Photo img{
-        width: 350px;
-        height: 350px;   } 
+        width: 400px;
+        height: 400px;   } 
     
 
 }
