@@ -12,29 +12,9 @@
         font-family: 'Nunito', sans-serif;
     }
 
-@media  screen and (max-device-width: 500px){
-    body, html {
-        margin: 0px;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        padding-left: 2px;
-        padding-right: 2px;
-        font-size: 45px;;
-        /* background-color:  #313131; */
-    }
-
-    .Download_cv {
-        width: 350px;
-        /* background-color: #313131; */
-    }
-    .Contacts-container {
-        width: 350px;
-
-    }
-
     .Photo img{
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
         border-radius: 50%;
         /* margin-top: 100px; */
         display: block;
@@ -42,7 +22,6 @@
         margin-right: auto;
         /* border: 2px solid #6d6d6d; */
     }
-}
 
     .Name {
         padding-top: 3%;
@@ -135,7 +114,7 @@
         padding-bottom: 2%;
         text-align: center;
         margin: 0;
-        border: 1px solid grey;
+        /* border: 1px solid grey; */
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         /* padding-bottom: 20px; */
@@ -208,6 +187,7 @@
         text-align: center;
         border: 1px solid grey;
         border-radius: 15px;
+        font-size: 30px;
         /* background-color: #808080; */
         width: 200px;
         padding: 10px;
@@ -215,9 +195,32 @@
 
 
 
+    @media  screen and (max-device-width: 500px){
+        body, html {
+            margin: 0px;
+            /* padding-top: 2px; */
+            /* padding-bottom: 2px; */
+            padding-left: 2px;
+            padding-right: 2px;
+            font-size: 40px;;
+            /* background-color:  #313131; */
+        }
+    
+        .Download_cv {
+            width: 350px;
+            /* background-color: #313131; */
+        }
+        .Contacts-container {
+            width: 350px;
+            font-size: 60px;
+        }
+        
+        .Photo img{
+        width: 350px;
+        height: 350px;   } 
+    
 
-
-
+}
 
 
 
