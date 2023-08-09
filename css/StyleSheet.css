@@ -100,7 +100,7 @@
     }
     header span {
         color: #fff;
-        font-size: 30px;
+        /* font-size: 30px; */
         padding-left: 20px;
     }
     footer {
@@ -118,10 +118,15 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
         /* padding-bottom: 20px; */
+        font-weight: bold;
+        color: black;
+
     }
     footer a{
         margin-left: 20px;
         margin-right: 20px;
+        color: black;
+        text-decoration: none;
     }
 
     /* .collapsible {
@@ -131,7 +136,7 @@
     } */
     .collapsible:after {
         content: '\02795'; /* Unicode character for "plus" sign (+) */
-        font-size: 13px;
+        /* font-size: 13px; */
         color: white;
         float:inherit;
         margin-left: 5px;
@@ -207,8 +212,11 @@
         }
     
         .Download_cv {
-            width: 400px;
+            width: 450px;
             /* background-color: #313131; */
+        }
+        .Download_cv i{
+            font-size:60px;
         }
         .Contacts-container {
             width: 350px;
