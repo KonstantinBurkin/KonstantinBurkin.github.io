@@ -19,8 +19,28 @@
         padding-bottom: 2px;
         padding-left: 2px;
         padding-right: 2px;
-        font-size: 30px;;
+        font-size: 45px;;
         /* background-color:  #313131; */
+    }
+
+    .Download_cv {
+        width: 350px;
+        /* background-color: #313131; */
+    }
+    .Contacts-container {
+        width: 350px;
+
+    }
+
+    .Photo img{
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        /* margin-top: 100px; */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* border: 2px solid #6d6d6d; */
     }
 }
 
