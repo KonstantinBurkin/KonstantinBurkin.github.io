@@ -168,17 +168,20 @@
         color: white;
         float:inherit;
         margin-left: 5px;
+        margin-bottom: 30px;
         /* font-weight:bold */
     }
 
     .active:after {
         content: "\2796"; /* Unicode character for "minus" sign (-) */
-        float:inline-end;
-        /* font-weight:bold */
+        float:inherit;
+        
+        font-weight:bold
     }
     .active, .collapsible:hover {
         background-color:  #ffe8d6;
         text-align: center;
+        
     }
     .content {
         display: block;
